@@ -1,56 +1,18 @@
-// ADDITION 
-let a = 50;
-let b = 30;
-let c = a + b;
 
-// console.log(c)
+let a = 5;
+let b = 3;
+let c = 2;
+let d = 1;
+let sum;
 
-let x = 20;
-let y = 10;
-let z = x + y;
+sum = a - (b - (c - (c * (-b) + d) + b - a));
 
-// console.log(z);
+// console.log(sum);
 
-// Subtraction
+const width = 3 ;
+const height = 4 ;
+const getRectArea = function(width,height){
+    return width * height;
 
-let d = 40;
-let e = 20;
-let f = d - e;
-
-// console.log(f);
-
-let g = 100;
-let h = 17;
-let i = g - h;
-
-// console.log(i);
-
-// Multiplication 
-
-let j = 40;
-let k = 35;
-let l = j * k;
-
-// console.log(l);
-
-let m = 15;
-let n = 10;
-let o = m * n;
-
-// console.log(o);
-
-//Division
-let p = 15;
-let q =10;
-let r = p / q ;
-
-console.log(r);
-
-let s = 10;
-let u = 10;
-let v = s / u;
-
-console.log(v);
-
-
-
+};
+console.log(getRectArea(width,height));

@@ -1,17 +1,16 @@
-let a = 5;
-let b = 3;
-let c = 2;
-let d = 1;
-let sum;
+// ADDITION //
+let a = 50;
+let b = 30;
+let c = a + b;
 
-sum = a - (b - (c - (c * (-b) + d) + b - a));
+ console.log(c)
 
-// console.log(sum);
 
-const width = 3 ;
-const height = 4 ;
-const getRectArea = function(width,height){
-    return width * height;
-
-};
-console.log(getRectArea(width,height));
+ let v,w,x,y,z;
+ v = 50;
+ w = 60;
+ x = 30;
+ y = 35;
+ z = 25;
+ let u = v+w+x+y+z;
+ console.log(u);
