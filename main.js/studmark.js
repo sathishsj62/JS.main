@@ -17,8 +17,8 @@
 // }
 
 //  let a = 45 ;
-//  let b = 60 ;
-//  let c = 80 ;
+//  let b = 90 ;
+//  let c = 90 ;
 //  let d = a+b+c;
 //  let e  = d/3;
 //  if(e<=39 && e>=30){
@@ -31,5 +31,25 @@
 //     console.log('F');
 //  }
 
+let r =60;
+
+if (r<=80 && r>=35){
+    console.log('pass');
+}else{
+    console.log('fail');
+}
+
+// let m = 50;
+// let y = 30;
+// let z =m+y;
+// let x =z/2;
+
+// if (x<=49 && x>=40){
+//     console.log('avg');
+// }else if(x<=59 && x>=50){
+//     console.log('pass');
+// }else{
+//     console.log('fail')
+// }
 
 

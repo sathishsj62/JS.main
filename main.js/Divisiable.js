@@ -11,3 +11,13 @@ if (x%7==0){
 }else{
     console.log('not divisiable');
 }
+let a = 90;
+let b =65; 
+let c =35;
+if (a>40){
+    console.log('avg');
+}else if(b>40) {
+    console.log('pass');
+}else{
+    console.log('fail');
+}
