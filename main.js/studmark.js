@@ -31,9 +31,9 @@
 //     console.log('F');
 //  }
 
-let r =60;
+let r =36;
 
-if (r<=80 && r>=35){
+if (r>=35 && r<=80){
     console.log('pass');
 }else{
     console.log('fail');
