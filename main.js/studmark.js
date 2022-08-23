@@ -52,4 +52,11 @@ if (r>=35 && r<=80){
 //     console.log('fail')
 // }
 
+// let licenseage = +prompt('enter the value')
+// let rto        = +prompt('enter the valu')
+// if( licenseage>=18 && rto<=8){
+//     console.log('eligi');
+// }else{
+//     console.log('not eligi');
+// }
 
