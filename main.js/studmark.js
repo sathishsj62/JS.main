@@ -31,13 +31,13 @@
 //     console.log('F');
 //  }
 
-let r =36;
+// let r =36;
 
-if (r>=35 && r<=80){
-    console.log('pass');
-}else{
-    console.log('fail');
-}
+// if (r>=35 && r<=80){
+//     console.log('pass');
+// }else{
+//     console.log('fail');
+// }
 
 // let m = 50;
 // let y = 30;
@@ -52,11 +52,11 @@ if (r>=35 && r<=80){
 //     console.log('fail')
 // }
 
-// let licenseage = +prompt('enter the value')
-// let rto        = +prompt('enter the valu')
-// if( licenseage>=18 && rto<=8){
-//     console.log('eligi');
-// }else{
-//     console.log('not eligi');
-// }
+let licenseage = +prompt('enter the value')
+let rto        = +prompt('enter the valu')
+if( licenseage>=18 && rto==8){
+    console.log('eligi');
+}else{
+    console.log('not eligi');
+}
 
