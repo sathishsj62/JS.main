@@ -52,8 +52,17 @@
 //     console.log('fail')
 // }
 
-let licenseage = +prompt('enter the value')
-let rto        = +prompt('enter the valu')
+// let licenseage = 21;
+// let rto        = "pass";
+// if( licenseage>=18 && rto=="pass"){
+//     console.log('eligi');
+// }else{
+//     console.log('not eligi');
+// }
+
+
+let licenseage =+prompt('enter the value')
+let rto        = +prompt("enter the value")
 if( licenseage>=18 && rto==8){
     console.log('eligi');
 }else{
