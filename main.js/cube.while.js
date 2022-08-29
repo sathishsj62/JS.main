@@ -7,5 +7,6 @@ while(b<=a){
 	b++;
 }
 
+let x = 
 
 

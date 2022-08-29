@@ -5,6 +5,12 @@
 // for(i=x;i>0;i--){
 //     console.log(i)
 // }
+
+
+let a= 10;
+for(i=a;i>0;i--){
+    console.log(i);
+}
     
 // let a =100;
 // for(i=a;i>0;i--){
@@ -19,8 +25,8 @@
 //     x--;
 // }
 
-let a =100;
-while(a>0){
-    console.log(a);
-    a--
-}
+// let a =100;
+// while(a>0){
+//     console.log(a);
+//     a--
+// }
