@@ -1,4 +1,4 @@
-//function  add //
+//// function direct call method ////
 
 function add(a,b) {
     console.log(a+b);
@@ -14,6 +14,18 @@ function add(a,b){
 
 }
 add(10,15);  
+
+// function  even num//
+function odd (a){
+  for(i=0 ; i<a ; i++){
+    if(i%2==0){
+      return"even"
+    }
+  }
+ 
+}
+odd(10);
+
   
 //function using condition//
 
@@ -88,10 +100,4 @@ console.log(value(5, 40));
 let num = (a,b,c) => a+b+c ;
 console.log(num(10,20,30));
 
-// function direct call method //
-function add(a,b) {
-    console.log(a+b);
-    
-}add(20,40);
 
-// function 
