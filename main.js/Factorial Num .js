@@ -16,7 +16,7 @@
 // console.log(y)
 
 
-let a = 7;
+let a = 6;
 let b = 1;
 for(i=1 ; i<=a;i++){
     b = b*i;
