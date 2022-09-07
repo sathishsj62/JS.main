@@ -28,6 +28,7 @@ switch(color){
     case 'D':
         color='white'
         break;
+        default:color="no color"
 
 }
 console.log(color);

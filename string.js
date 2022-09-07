@@ -1,8 +1,8 @@
-///string method//
+///String Methods and Properties//
 let a = "hii this sathishkumar";
 let b = "vivi,Akanksha,maha, pandu,maha"
 let c = "frontend and backend development";
-let d = "vivi";
+let d = ("vivi");
 let e = "Akanksha ,vivi, Akanksha ";
 
 
@@ -87,4 +87,21 @@ console.log(k.trimStart());
 // trimEnd
 console.log(k.trimEnd());
 
-console.log(a.codePointAt(7));
+// toString//
+console.log(d.toString());
+
+// valuOf //
+console.log(d.valueOf());
+
+
+function randomcolor(){
+	var x = Math.floor(Math.random() * 100);
+	var y = Math.floor(Math.random() * 150);
+    var randomcolor = "rgb(" + x + "," + y + ")";
+	
+	console.log(randomcolor);
+	
+	
+}
+
+randomcolor();

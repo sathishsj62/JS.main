@@ -22,4 +22,9 @@ for(let i = 1;i<=10; i++){
     let d = i*c ;
     console.log(i+"*"+c+"="+d);
 }
+let d =5;
+for (let i=1 ;i<=10;i++){
+    let e =i*d;
+    console.log(i+"*"+d+"="+e);
+}
 
