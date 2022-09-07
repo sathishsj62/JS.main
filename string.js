@@ -92,16 +92,5 @@ console.log(d.toString());
 
 // valuOf //
 console.log(d.valueOf());
+// 
 
-
-function randomcolor(){
-	var x = Math.floor(Math.random() * 100);
-	var y = Math.floor(Math.random() * 150);
-    var randomcolor = "rgb(" + x + "," + y + ")";
-	
-	console.log(randomcolor);
-	
-	
-}
-
-randomcolor();
