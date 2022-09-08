@@ -189,15 +189,15 @@ function x(a,b){
 	}
 	return c ;
 }
-let vs,vr;
-let s = prompt("enter the first string");
-let r = prompt("enter the first string");
+let m,h;
+let f = prompt("enter the first string");
+let s = prompt("enter the second string");
 let v  =["a","e","i","o","u","A","E","I","O","U"];
-vs = x(s,v);
-vr = x(r,v);
-if(vs==vr){
+m = x(f,v);
+h = x(s,v);
+if(m==h){
 	console.log("the both string has same vowels");
-}else if( vs>vr){
+}else if( m>h){
 	console.log("the first string has more vowels");
 }else{
 	console.log("the second string has more vowels");
